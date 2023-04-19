@@ -1,0 +1,148 @@
+/* Styles généraux */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(113, 155, 247);;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Styles de l'en-tête */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Styles de la section d'accueil */
+  .hero {
+    background-image: url(air-jordan-1-high-og-university-blue-2021-555088-134-release-date-1200x750-1.webp);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -100px;
+  }
+  
+  .hero h1 {
+    font-size: 5rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .cta-btn {
+    background-color: #09ab26;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #ff4858;
+  }
+  
+  /* Styles de la section "À propos" */
+  #about {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+  }
+  
+  #about h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  /* Styles de la section "Produits" */
+  #products {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    
+  }
+  
+  .product {
+    background-color: #fff;
+    box-shadow: ;
+    padding: 150px;
+    text-align: ;
+   
+  }
+  .product img{
+    width: 200%;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    max-width: 500px;
+    padding: 30px;
+    border: 1px solid black;
+    position: relative;
+    left: 25%;
+    bottom: 5px;
+    background: #f5f5f5;
+  }
+  footer img{
+    width: 30px;
+    height: 30px;
+
+  }
